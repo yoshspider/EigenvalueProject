@@ -7,18 +7,18 @@ Title: The Eigenvalue Problem and its Applications
 ## Table of Contents
 - [Overview](#Overview)
 - [Background](#Background)
-  - [Generalized Eigenvalue Problem](#Generalized Eigenvalue Problem)
+  - [Generalized Eigenvalue Problem](#Generalized-Eigenvalue-Problem)
 - [Computing Eigenvalues](#Computing-Eigenvalues)
-  - [Power Iteration](#Power Iteration)
-  - [Inverse Iteration](#Inverse Iteration)
-  - [QR Iteration](#QR Iteration)
-  - [Jacobi Method](#Jacobi Method)
-  - [Relatively Robust Representation](#Relatively Robust Representation)
+  - [Power Iteration](#Power-Iteration)
+  - [Inverse Iteration](#Inverse-Iteration)
+  - [QR Iteration](#QR-Iteration)
+  - [Jacobi Method](#Jacobi-Method)
+  - [Relatively Robust Representation](#Relatively-Robust-Representation)
 - [Applications](#Applications)
-  - [Differential Equations]
-  - [Graph Theory]
-  - [Principal Component Analysis]
- - [Eigenvalues for Numerical Methods](#Eigenvalues for Numerical Methods)
+  - [Differential Equations](#Differential-Equations)
+  - [Graph Theory](#Graph-Theory)
+  - [Principal Component Analysis](#Principal-Component-Analysis)
+  - [Eigenvalues for Numerical Methods](#Eigenvalues-for-Numerical-Methods)
 
 
 
@@ -52,7 +52,7 @@ Two interesting properties as a result of characteristic polynomial is that the 
 
 ### Generalized Eigenvalue Problem
 
-## Computing-Eigenvalues
+## Computing Eigenvalues
 
 ### Power Iteration
 
