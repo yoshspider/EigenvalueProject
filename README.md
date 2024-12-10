@@ -7,18 +7,18 @@ Title: The Eigenvalue Problem and its Applications
 ## Table of Contents
 - [Overview](#Overview)
 - [Background](#Background)
-  - Generalized Eigenvalue Problem
-- Computing Eigenvalues
-  - Power Iteration
-  - Inverse Iteration
-  - QR Iteration
-  - Jacobi Method
-  - Relatively Robust Representation
-- Applications
-  - Differential Equations
-  - Graph Theory
-  - Principal Component Analysis
- - Eigenvalues Value in Numerical Methods
+  - [Generalized Eigenvalue Problem](#Generalized Eigenvalue Problem)
+- [Computing Eigenvalues](#Computing Eigenvalues)
+  - [Power Iteration](#Power Iteration)
+  - [Inverse Iteration](#Inverse Iteration)
+  - [QR Iteration](#QR Iteration)
+  - [Jacobi Method](#Jacobi Method)
+  - [Relatively Robust Representation](#Relatively Robust Representation)
+- [Applications](#Applications)
+  - [Differential Equations]
+  - [Graph Theory]
+  - [Principal Component Analysis]
+ - [Eigenvalues for Numerical Methods]
 
 
 
@@ -50,4 +50,26 @@ Therefore, solving $det(A - I \lambda) = 0$ will result in all the eigenvalues a
 
 Two interesting properties as a result of characteristic polynomial is that the sum of the set of eigenvalues is equilivant to the $trace(A)$ and that if $a+bi$ is an eigenvalue of matrix A, then $a-bi$ must be also.
 
+### Generalized Eigenvalue Problem
 
+## Computing Eigenvalues
+
+### Power Iteration
+
+### Inverse Iteration
+
+### QR Iteration
+
+### Jacobi Iteration
+
+### Relatively Robust Representation
+
+## Applications
+
+### Differential Equations
+
+### Graph Theory
+
+### Principal Component Analysis 
+
+## Eigenvalues for Numerical Methods
