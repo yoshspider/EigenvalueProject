@@ -30,7 +30,7 @@ Given a matrix $A$, an eigenvector and eigenvalue is defined to be the vector $x
 
 $$
 \begin{align}
-Ax = \lambda \x \\
+Ax = \lambda\ x \\
 \end{align}
 $$
 
