@@ -10,14 +10,12 @@ Title: The Eigenvalue Problem and its Applications
   - [Generalized Eigenvalue Problem](#Generalized-Eigenvalue-Problem)
 - [Computing Eigenvalues](#Computing-Eigenvalues)
   - [Power Iteration](#Power-Iteration)
-  - [Inverse Iteration](#Inverse-Iteration)
   - [QR Iteration](#QR-Iteration)
   - [Jacobi Method](#Jacobi-Method)
   - [Relatively Robust Representation](#Relatively-Robust-Representation)
 - [Applications](#Applications)
   - [Differential Equations](#Differential-Equations)
   - [Graph Theory](#Graph-Theory)
-  - [Principal Component Analysis](#Principal-Component-Analysis)
   - [Eigenvalues for Numerical Methods](#Eigenvalues-for-Numerical-Methods)
 
 
@@ -46,17 +44,27 @@ Ax - \lambda x = 0 \\
 \end{align}
 $$
 
-Therefore, solving $det(A - I \lambda) = 0$ will result in all the eigenvalues and eigenvectors of matrix A. Note that if matrix A has $n$ x $n$ dimensions, solving this characteristic polynomial will result in max $n$ solutions, meaning that the number of eigenvalues for a matrix is bounded by $rank(A)$. However, finding the determinant of a matrix, let alone solving such is computationally intensive for large matrixes, and so the eigenvalues is typically estimated through numerical methods.
+Therefore, solving $det(A - I \lambda) = 0$ will result in all the eigenvalues and eigenvectors of matrix A. Note that if matrix A has $n$ x $n$ dimensions, solving this characteristic polynomial will result in max $n$ solutions, meaning that the number of eigenvalues for a matrix is bounded by $rank(A)$ However, finding the determinant of a matrix, let alone solving such is computationally intensive for large matrixes, and so the eigenvalues is typically estimated through numerical methods.
 
 Two interesting properties as a result of characteristic polynomial is that the sum of the set of eigenvalues is equilivant to the $trace(A)$ and that if $a+bi$ is an eigenvalue of matrix A, then $a-bi$ must be also.
 
 ### Generalized Eigenvalue Problem
 
+The generalized eigenvalue problem is a more complete version of the original eigenvalue problem, which is defined in the following way.
+
+Given square matrices $A$ and $B$, a generalized eigenvector and generalized eigenvalue is defined to be the vector $x$ and $\lambda$ respectively such that it solves the following condition:
+
+$$
+\begin{align}
+Ax = \lambda Bx \\
+\end{align}
+$$
+
+This means that the original eigenvalue problem is 
+
 ## Computing Eigenvalues
 
 ### Power Iteration
-
-### Inverse Iteration
 
 ### QR Iteration
 
@@ -69,7 +77,5 @@ Two interesting properties as a result of characteristic polynomial is that the 
 ### Differential Equations
 
 ### Graph Theory
-
-### Principal Component Analysis 
 
 ## Eigenvalues for Numerical Methods
