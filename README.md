@@ -46,6 +46,8 @@ Ax - \lambda x = 0 \\
 \end{align}
 $$
 
-Therefore, solving $det(A - I \lambda) = 0$ will result in all the eigenvalues and eigenvectors of matrix A. Note that if matrix A has $n$ x $n$ dimensions, solving this characteristic polynomial will result in max $n$ solutions, meaning that the number of eigenvalues for a matrix is bounded by $rank(A)$.
+Therefore, solving $det(A - I \lambda) = 0$ will result in all the eigenvalues and eigenvectors of matrix A. Note that if matrix A has $n$ x $n$ dimensions, solving this characteristic polynomial will result in max $n$ solutions, meaning that the number of eigenvalues for a matrix is bounded by $rank(A)$. However, finding the determinant of a matrix, let alone solving such is computationally intensive for large matrixes, and so the eigenvalues is typically estimated through numerical methods.
+
+Two interesting properties as a result of characteristic polynomial is that the sum of the set of eigenvalues is equilivant to the $trace(A)$ and that if $a+bi$ is an eigenvalue of matrix A, then $a-bi$ must be also.
 
 
