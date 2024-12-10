@@ -18,7 +18,7 @@ Title: The Eigenvalue Problem and its Applications
   - [Differential Equations]
   - [Graph Theory]
   - [Principal Component Analysis]
- - [Eigenvalues for Numerical Methods]
+ - [Eigenvalues for Numerical Methods](#Eigenvalues for Numerical Methods)
 
 
 
