@@ -8,7 +8,7 @@ Title: The Eigenvalue Problem and its Applications
 - [Overview](#Overview)
 - [Background](#Background)
   - [Generalized Eigenvalue Problem](#Generalized Eigenvalue Problem)
-- [Computing Eigenvalues](#Computing Eigenvalues)
+- [Computing Eigenvalues](#Computing\Eigenvalues)
   - [Power Iteration](#Power Iteration)
   - [Inverse Iteration](#Inverse Iteration)
   - [QR Iteration](#QR Iteration)
