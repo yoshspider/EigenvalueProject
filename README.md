@@ -9,7 +9,7 @@ Title: The Eigenvalue Problem and its Applications
 - Background
 - 
 - Applications
---   Differential Equations
+  - Differential Equations
 
 
 
