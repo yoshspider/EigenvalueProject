@@ -78,4 +78,4 @@ This means that the original eigenvalue problem is
 
 ### Graph Theory
 
-## Eigenvalues for Numerical Methods
+### Eigenvalues for Numerical Methods
