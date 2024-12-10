@@ -27,4 +27,8 @@ Title: The Eigenvalue Problem and its Applications
 ## Background
 
 Given a matrix $A$, an eigenvector and eigenvalue is defined to be the vector $x$ and $\lambda$ respectively such that it solves the following condition:
-`Ax = \lambdax`
+<p align="center">
+    Ax = \lambdax
+</p>
+
+
