@@ -24,8 +24,6 @@ Title: The Eigenvalue Problem and its Applications
 
 ## Overview
 
-## Background
-
 Given a matrix $A$, an eigenvector and eigenvalue is defined to be the vector $x$ and $\lambda$ respectively such that it solves the following condition:
 
 $$
@@ -35,4 +33,10 @@ Ax = \lambda x \\
 $$
 
 Therefore, the eigenvalue problem is to find the set of all eigenvalues (also known as the spectrum of a matrix) and the set of all eigenvectors (whose basis create a vector subspace that is known as the eigenspace of a matrix) of a given matrix.
+
+Eigenvalues contain numerous different properties with a wide variety of applications, many of which will be discussed here, and so solving the eigenvalue problem (within reasonable precision) is a critical task in science, mathematics, and engineering.
+
+## Background
+
+
 
