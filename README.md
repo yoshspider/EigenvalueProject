@@ -48,6 +48,9 @@ Therefore, solving $det(A - I \lambda) = 0$ will result in all the eigenvalues a
 
 Two interesting properties as a result of characteristic polynomial is that the sum of the set of eigenvalues is equilivant to the $trace(A)$ and that if $a+bi$ is an eigenvalue of matrix A, then $a-bi$ must be also.
 
+Other interesting properties stem for manipulating the matrix A.
+If $\lambda$ is an eigenvalue for the matrix A, 
+
 ### Generalized Eigenvalue Problem
 
 The generalized eigenvalue problem is a more complete version of the original eigenvalue problem, which is defined in the following way.
@@ -68,7 +71,7 @@ As discussed before, analytically computing eigenvalues is computationally inten
 
 ### Power Iteration
 
-Power Iteration takes advatange of the power rule for eigenvalues in order to solve the eigenvalue problem. The idea is to take with an arbitrary vector $x_0$. The next vector $x_1$ will be defined as $Ax_0$ and for every iteration $i$, $x_i$ will be $Ax_i-1$.
+Power Iteration takes advatange of the power rule for eigenvalues in order to solve the eigenvalue problem. The idea is to take with an arbitrary vector $x_0$. The next vector $x_1$ will be defined as $Ax_0$ and for every iteration $i$, $x_i$ will be $Ax_{i-1}$. As the iterations increase, the ratio between $x_i/x_{i-1}$ will approach a corresponding eigenvalue for $x_i$. However, for large iterations, the vector $x_i$ may become either extremely large or small, which can have severe consequences on stability and convergence; therefore, normalization to a unit vector is usually applied to each step. 
 
 ### QR Iteration
 
