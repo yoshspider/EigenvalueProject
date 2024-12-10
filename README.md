@@ -60,7 +60,7 @@ Ax = \lambda Bx \\
 \end{align}
 $$
 
-This means that the original eigenvalue problem is 
+This means that the original eigenvalue problem is a subset of the generalized eigenvalue problem such that B is the identity matrix.
 
 ## Computing Eigenvalues
 
