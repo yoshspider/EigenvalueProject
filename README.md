@@ -1,7 +1,7 @@
 ---
 Name: Yash Agrawal
 Topic: 12
-Title: Eigenvalues and their Applications
+Title: The Eigenvalue Problem and its Applications
 ----
-# Eigenvalues and their Applications
+# The Eigenvalue Problem and its Applications
 ## Table of Contents
