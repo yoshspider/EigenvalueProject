@@ -34,4 +34,5 @@ Ax = \lambda x \\
 \end{align}
 $$
 
+Therefore, the eigenvalue problem is to find the set of all eigenvalues (also known as the spectrum of a matrix) and the set of all eigenvectors (whose basis create a vector subspace that is known as the eigenspace of a matrix) of a given matrix.
 
