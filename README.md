@@ -1,7 +1,7 @@
 ---
-Name: Yash Agrawal
-Topic: 12
-Title: The Eigenvalue Problem and its Applications
-----
+Name: Name Here
+Topic: Exterior Penalty Function Method
+Title: Background and Application of the Exterior Penalty Function Method
+---
 # The Eigenvalue Problem and its Applications
 ## Table of Contents
