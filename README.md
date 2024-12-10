@@ -52,7 +52,7 @@ Two interesting properties as a result of characteristic polynomial is that the 
 
 ### Generalized Eigenvalue Problem
 
-## Computing Eigenvalues
+## Computing\Eigenvalues
 
 ### Power Iteration
 
