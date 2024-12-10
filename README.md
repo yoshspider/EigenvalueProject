@@ -1,12 +1,12 @@
 ---
 Name: Yash Agrawal
-Topic: Exterior Penalty Function Method
+Topic: Eigenvalues and Generalized Eigenvalues
 Title: The Eigenvalue Problem and its Applications
 ---
 # The Eigenvalue Problem and its Applications
 ## Table of Contents
 - [Overview](#Overview)
-- Background
+- [Background](#Background)
   - Generalized Eigenvalue Problem
 - Computing Eigenvalues
   - Power Iteration
@@ -23,3 +23,7 @@ Title: The Eigenvalue Problem and its Applications
 
 
 ## Overview
+
+## Background
+
+Given a matrix A, an eigenvector and eigenvalue is defined to be the vector $$x$$ and 
