@@ -42,8 +42,8 @@ $$
 \begin{align}
 Ax = \lambda x \\
 Ax - \lambda x = 0 \\
-(A - I \lambda) x = 0 \\
-and therefore, det(A - I \lambda) = 0 \\
+(A - \lambda \ I) x = 0 \\
+and \ therefore, \ det(A - I \lambda) = 0 \\
 \end{align}
 $$
 
