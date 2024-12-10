@@ -64,7 +64,11 @@ This means that the original eigenvalue problem is a subset of the generalized e
 
 ## Computing Eigenvalues
 
+As discussed before, analytically computing eigenvalues is computationally intensive, and so current methods of solving for eigenvalues utilize iterative methodologies and the properties of eigenvalues before to solve for the eigenvalues.
+
 ### Power Iteration
+
+Power Iteration takes advatange of the power rule for eigenvalues in order to solve the eigenvalue problem. The idea is to take with an arbitrary vector $x_0$. The next vector $x_1$ will be defined as $Ax_0$ and for every iteration $i$, $x_i$ will be $Ax_i-1$.
 
 ### QR Iteration
 
