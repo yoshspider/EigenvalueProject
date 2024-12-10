@@ -42,11 +42,10 @@ $$
 \begin{align}
 Ax = \lambda x \\
 Ax - \lambda x = 0 \\
-(A - \lambda \ I) x = 0 \\
-and \ therefore, \ det(A - I \lambda) = 0 \\
+(A - \lambda \ I) \ x = 0 \\
 \end{align}
 $$
 
-
+Tjerefore, solving $ det(A - I \lambda) = 0 $ will result in all the eigenvalues and eigenvectors of matrix A. Note that if matrix A has $n x n$ dimensions, solving this characteristic polynomial will result in max $n$ solutions, meaning that the number of eigenvalues for a matrix is bounded by $rank(A)$.
 
 
