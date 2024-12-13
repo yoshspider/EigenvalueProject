@@ -115,7 +115,7 @@ More complex differential equations can be mapped to the generalized eigenvalue 
 
 ### Optimization
 
-Eigenvalues have significant applications when it comes to linear programming and optimization, which has a wide variety of applications throughout all fields. 
+Eigenvalues have significant applications when it comes to linear programming and optimization, which has a wide variety of applications throughout all fields. One of the earliest instances of such is NP-hard Optimal Partioning of Graphs problem which seeks to take an undirected graph and to optimally split it such that each subset has the exactly same number of vertices and that the edges between subsets is minimized. Interestingly, by utilzing an adjacency matrix as a representation of such graph, Donath and Hoffman were able to turn it into an optimization problem by creating a new matrix representation to show which vertex is part of which subset. With some more analytical research, they were able to find that this optimization can be done through eigenvalues. In fact many graph problems such as max cut can be transformed into eigenvalue optimization problems which can be strong approximations for known NP-hard problems.
 
 ### Eigenvalues for Numerical Methods
 
