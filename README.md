@@ -106,6 +106,8 @@ Jacobi Iteration is another form of simultaneous iteration except instead of uti
 
 ### Krylov Subspace Method
 
+Kyrlov Subspace Methods are a subset of methods such as Arnoldi Iteration and Lanczos Iteration in which instead of transforming an already existing subspace into the eigenspace, these methods seek to build the eigensubspace one vector at a time.
+
 ## Applications
 
 ### Differential Equations
