@@ -89,6 +89,7 @@ while (ratio > tolerance):                                  {Continue until the 
 return x_current, ratio                                     {x_current will be the eigenvector and the ratio will be the eigenvalue}
 ```
 
+Power Iteration is one of the first numerical methods of finding eigenvalues as serves as a basis for many modern techniques; however, it suffers from multiple problems. 
 
 ### QR Iteration
 
