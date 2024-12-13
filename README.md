@@ -89,9 +89,11 @@ while (ratio > tolerance):                                  {Continue until the 
 return x_current, ratio                                     {x_current will be the eigenvector and the ratio will be the eigenvalue}
 ```
 
-Power Iteration is one of the first numerical methods of finding eigenvalues as serves as a basis for many modern techniques; however, it suffers from multiple problems. One might note that this methodology only returns the most dominant eigenvector (i.e the closest eigenvector) for the randomized initial vector, meaning that smart decisions have to be made about choosing initial vectors such that all eigenvalues are obtained. This also fails in that it can never achieve complex eigenvalues or eigenvectors from the fact that each iteration only has basic operations on real numbers, which can be a cause for concern for more complex applications that require such.
+Power Iteration is one of the first numerical methods of finding eigenvalues as serves as a basis for many modern techniques; however, it suffers from multiple problems. One might note that this methodology only returns the most dominant eigenvector (i.e the closest eigenvector) for the randomized initial vector, meaning that smart decisions have to be made about choosing initial vectors such that all eigenvalues are obtained. This also fails in that it can never achieve complex eigenvalues or eigenvectors from the fact that each iteration only has basic operations on real numbers, which can be a cause for concern for more complex applications that require such. Power Iteration also suffers from the fact that it has a slow convergence rate.
 
 ### QR Iteration
+
+QR Iteration takes advantage of QR factorization which creates an orthonormal basis of vectors to help define the basis of the subspace of A. This idea would be much more helpful than 
 
 ### Jacobi Iteration
 
