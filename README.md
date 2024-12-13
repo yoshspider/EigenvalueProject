@@ -11,8 +11,8 @@ Title: The Eigenvalue Problem and its Applications
 - [Computing Eigenvalues](#Computing-Eigenvalues)
   - [Power Iteration](#Power-Iteration)
   - [QR Iteration](#QR-Iteration)
-  - [Jacobi Method](#Jacobi-Method)
-  - [Relatively Robust Representation](#Relatively-Robust-Representation)
+  - [Jacobi Method](#Jacobi-Iteration)
+  - [Krylov Subspace Method](#Krylov Subspace Method)
 - [Applications](#Applications)
   - [Differential Equations](#Differential-Equations)
   - [Optimization](#Optimization)
@@ -104,7 +104,7 @@ This process, while much more expansive than power iteration, is still slow to c
 Jacobi Iteration is another form of simultaneous iteration except instead of utilzing an orthonormal basis, this method utilizes plane rotations. The idea is that a given subspace can be rotated into the eigenspace by eliminating the non diagonal values, resulting in all the eigenvalues. Jacobi iteration follows the reccurence: $$A_{k+1} = J_k^T A_k J_k $$ where $J_k$ is the $k$ th rotation matrix, which helps delete symmetric elements from the matrix. This methodology has a quadratic rate of convergence and has high accuracy, but can only be utilized on a starting symmetric matrix (for example an undirected graph adjacency matrix).
 
 
-### Relatively Robust Representation
+### Krylov Subspace Method
 
 ## Applications
 
