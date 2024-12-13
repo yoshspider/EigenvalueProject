@@ -93,10 +93,15 @@ Power Iteration is one of the first numerical methods of finding eigenvalues as 
 
 ### QR Iteration
 
-QR Iteration takes advantage of QR factorization which creates an orthonormal basis of vectors to help define the basis of the subspace of A. The idea of why this is helpful is that as opposed to power iteration where one vector is being transformed into the closest eigenvector, an entire subspace can instead be transformed into the eigenspace, returning all the eigenvalues instead of just one at a time. This bypasses the need to have to smartly choose initial vectors and the fact that now one iterative process handles all eigenvalues. 
+QR Iteration takes advantage of QR factorization which creates an orthonormal basis of vectors to help define the basis of the subspace of A. The idea of why this is helpful is that as opposed to power iteration where one vector is being transformed into the closest eigenvector, an entire subspace can instead be transformed into the eigenspace, returning all the eigenvalues instead of just one at a time. This bypasses the need to have to smartly choose initial vectors and the fact that now one iterative process handles all eigenvalues. Actually, this process of transforming a subspace is called simultaneous iteration and QR iteration is a subset of such.
 
+The iterative process of QR factorization takes the following steps. Take the current matrix A and factor it into Q and R, normalizing to prevent extremely large or small values over time. The next iteration of A will be set as the matrix product of R times Q. Repeat this process until a specified number of iterations or till the matrix A does not significantly change. The diagonal values of the final matrix A will be the eigenvalues and their multiplicities.
+
+This process, while much more expansive than power iteration, is still slow to converge. Therefore, there is a modified algorithm taking advantage of the shift property where matrix A is shifted before each factorization and shifted back afterwards to help the algorithm converge faster.
 
 ### Jacobi Iteration
+
+
 
 ### Relatively Robust Representation
 
