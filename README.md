@@ -49,7 +49,7 @@ Therefore, solving $det(A - I \lambda) = 0$ will result in all the eigenvalues a
 Two interesting properties as a result of characteristic polynomial is that the sum of the set of eigenvalues is equilivant to the $trace(A)$ and that if $a+bi$ is an eigenvalue of matrix A, then $a-bi$ must be also.
 
 Other interesting properties stem for manipulating the matrix $A$.
-If $\lambda$ is an eigenvalue for the matrix $A$, $\lambda^k$ is an eigenvalue for the matrix $A^k$. Shifting a matrix $A$ by some $\sigma$ such that $A$ is now $A - /sigma I$, then $\lambda - \sigma$ is an eigenvalue too. Applying any polynomial function to a matrix $A$ would result that such function applied to the eigenvalue would be an eigenvalue of the new matrix.
+If $\lambda$ is an eigenvalue for the matrix $A$, $\lambda^k$ is an eigenvalue for the matrix $A^k$. Shifting a matrix $A$ by some $\sigma$ such that $A$ is now $A - \sigma I$, then $\lambda - \sigma$ is an eigenvalue too. Applying any polynomial function to a matrix $A$ would result that such function applied to the eigenvalue would be an eigenvalue of the new matrix.
 
 ### Generalized Eigenvalue Problem
 
