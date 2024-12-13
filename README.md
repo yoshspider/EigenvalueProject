@@ -15,7 +15,7 @@ Title: The Eigenvalue Problem and its Applications
   - [Relatively Robust Representation](#Relatively-Robust-Representation)
 - [Applications](#Applications)
   - [Differential Equations](#Differential-Equations)
-  - [Graph Theory](#Graph-Theory)
+  - [Optimization](#Optimization)
   - [Eigenvalues for Numerical Methods](#Eigenvalues-for-Numerical-Methods)
 
 
@@ -83,6 +83,13 @@ Power Iteration takes advatange of the power rule for eigenvalues in order to so
 
 ### Differential Equations
 
-### Graph Theory
+Eigenvalue computation has important applications in differential equations. Both n-order ordinary differential equations and partial differential equations can be converted into matrix form such that the eigenvalues of such a matrix will be the solution set for the set of differential equations. For example, 
+
+### Optimization
 
 ### Eigenvalues for Numerical Methods
+
+## References
+1. Heath, M. T. (2009). Chapter 4: Eigenvalue Problems. In Scientific computing: An introductory survey (pp. 157–214), McGraw Hill.
+2. Golub, G. H., & van der Vorst, H. A. (2000). Eigenvalue computation in the 20th century. Journal of Computational and Applied Mathematics, 123(1–2), 35–65. https://doi.org/10.1016/s0377-0427(00)00413-1
+3. Lewis, A. S., & Overton, M. L. (1996). Eigenvalue optimization. Acta Numerica, 5, 149–190. https://doi.org/10.1017/S0962492900002646 
