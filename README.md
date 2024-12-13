@@ -83,7 +83,7 @@ Power Iteration takes advatange of the power rule for eigenvalues in order to so
 
 ### Differential Equations
 
-Eigenvalue computation has important applications in differential equations. Both n-order ordinary differential equations and partial differential equations can be converted into matrix form such that the eigenvalues of such a matrix will be the solution set for the set of differential equations. For example, 
+Eigenvalue computation has important applications in differential equations. Both n-order ordinary differential equations and partial differential equations can be converted into matrix form such that the eigenvalues of such a matrix will be the solution set for the set of differential equations. For example, a second order differential equation such as $$ y'' + 4y' + 3y = 0$$ can be transformed into a matrix problem where a vector $x$ represents $[y, y']$ and the equality $x' = Ax$ can be setup where $A$ would be the coefficients to make this equation true. This looks very similar to the definition of an eigenvector, and the solution set would just be the sum of each eigenvector times $e^\lambda$ pair.  
 
 ### Optimization
 
