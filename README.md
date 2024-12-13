@@ -48,8 +48,8 @@ Therefore, solving $det(A - I \lambda) = 0$ will result in all the eigenvalues a
 
 Two interesting properties as a result of characteristic polynomial is that the sum of the set of eigenvalues is equilivant to the $trace(A)$ and that if $a+bi$ is an eigenvalue of matrix A, then $a-bi$ must be also.
 
-Other interesting properties stem for manipulating the matrix A.
-If $\lambda$ is an eigenvalue for the matrix A, 
+Other interesting properties stem for manipulating the matrix $A$.
+If $\lambda$ is an eigenvalue for the matrix $A$, $\lambda^k$ is an eigenvalue for the matrix $A^k$. 
 
 ### Generalized Eigenvalue Problem
 
@@ -75,6 +75,19 @@ Power Iteration takes advatange of the power rule for eigenvalues in order to so
 
 The following pseudocode details the process for power iteration.
 
+```
+x_previous = rand(n)                                        {Pick a random vector of size n}
+x_current = dot(A, x_previous)                              {Find the next iteration value}
+ratio = x_current/x_previous                                {Determine initial ratio}
+x_current = normalize(x_current)                            {Typically by dividing by ||x_current||}
+while (ratio > tolerance):                                  {Continue until the ratio is below a tolerance decided beforehand}
+  x_previous = x_current                                    {Repeat iterative process}
+  x_current = dot(A, x_previous)
+  ratio = x_current/x_previous
+  x_current = normalize(x_current)
+
+return x_current, ratio                                     {x_current will be the eigenvector and the ratio will be the eigenvalue}
+```
 
 
 ### QR Iteration
@@ -87,7 +100,7 @@ The following pseudocode details the process for power iteration.
 
 ### Differential Equations
 
-Eigenvalue computation has important applications in differential equations. Both n-order ordinary differential equations and partial differential equations can be converted into matrix form such that the eigenvalues of such a matrix will be the solution set for the set of differential equations. For example, a second order differential equation such as $$y'' + 4y' + 3y = 0$$ can be transformed into a matrix problem where a vector $x$ represents $[y, y']$ and the equality $x' = Ax$ can be setup where $A$ would be the coefficients to make this equation true. This looks very similar to the definition of an eigenvector, and the solution set would just be the sum of each eigenvector times $e^\lambda$ pair. Both complex and generalized eigenvalues result in real solutions for less trivial differential equations. 
+Eigenvalue computation has important applications in differential equations. Both n-order ordinary differential equations and partial differential equations can be converted into matrix form such that the eigenvalues of such a matrix will be the solution set for the set of differential equations. For example, a second order differential equation such as $$y'' + 4y' + 3y = 0$$ (which can represent a wide variety of physics problems such as a spring-mass problem) can be transformed into a matrix problem where a vector $x$ represents $[y, y']$ and the equality $x' = Ax$ can be setup where $A$ would be the coefficients to make this equation true. This looks very similar to the definition of an eigenvector, and the solution set would just be the sum of each eigenvector times $e^\lambda$ pair. Both complex and generalized eigenvalues result in real solutions for less trivial differential equations. 
 
 More complex differential equations can be mapped to the generalized eigenvalue problem of $$Dv' + Cv = 0$$ whose solution set solves the differential equation. An example use of such is finding solutions for the Brusselator model, which is a set of differential equations to model chemical reactions in a reactor. These results help transform a series of differential equations which analytically would require a complex ruleset of different methodologies to the generalized eigenvalue problem which can straightfowardly solved for its eigenvalues and thereby its solution set through one of the previously listed methodologies.
 
