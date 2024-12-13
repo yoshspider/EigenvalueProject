@@ -71,7 +71,7 @@ As discussed before, analytically computing eigenvalues is computationally inten
 
 ### Power Iteration
 
-Power Iteration takes advatange of the power rule for eigenvalues in order to solve the eigenvalue problem. The idea is to take with an arbitrary vector $x_0$. The next vector $x_1$ will be defined as $Ax_0$ and for every iteration $i$, $x_i$ will be $Ax_{i-1}$. As the iterations increase, the ratio between $x_i/x_{i-1}$ will approach a corresponding eigenvalue for $x_i$. However, for large iterations, the vector $x_i$ may become either extremely large or small, which can have severe consequences on stability and convergence; therefore, normalization to a unit vector is usually applied to each step. 
+Power Iteration takes advatange of the power rule for eigenvalues in order to solve the eigenvalue problem. The idea is to take with an arbitrary vector $x_0$. The next vector $x_1$ will be defined as $Ax_0$ and for every iteration $i$, $x_i$ will be $Ax_{i-1}$. As the iterations increase, the ratio between $x_i/x_{i-1}$ will approach a corresponding eigenvalue for $x_i$. However, for large iterations, the vector $x_i$ may become either extremely large or small, which can have severe consequences on stability and convergence; therefore, normalization to a unit vector is usually applied to each step. The idea of why this works is that eigenvectors act as these lines of convergence where any vector after each iteration of being multiplied by A, is moving closer and closer to the nearest eigenvector. Power iteration takes advantage of this fact to help find each eigenvector.
 
 The following pseudocode details the process for power iteration.
 
@@ -93,7 +93,8 @@ Power Iteration is one of the first numerical methods of finding eigenvalues as 
 
 ### QR Iteration
 
-QR Iteration takes advantage of QR factorization which creates an orthonormal basis of vectors to help define the basis of the subspace of A. This idea would be much more helpful than 
+QR Iteration takes advantage of QR factorization which creates an orthonormal basis of vectors to help define the basis of the subspace of A. The idea of why this is helpful is that as opposed to power iteration where one vector is being transformed into the closest eigenvector, an entire subspace can instead be transformed into the eigenspace, returning all the eigenvalues instead of just one at a time. This bypasses the need to have to smartly choose initial vectors and the fact that now one iterative process handles all eigenvalues. 
+
 
 ### Jacobi Iteration
 
