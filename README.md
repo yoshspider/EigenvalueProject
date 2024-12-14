@@ -12,7 +12,7 @@ Title: The Eigenvalue Problem and its Applications
   - [Power Iteration](#Power-Iteration)
   - [QR Iteration](#QR-Iteration)
   - [Jacobi Method](#Jacobi-Iteration)
-  - [Krylov Subspace Method](#Krylov Subspace Method)
+  - [Krylov Subspace Method](#Krylov-Subspace-Method)
 - [Applications](#Applications)
   - [Differential Equations](#Differential-Equations)
   - [Optimization](#Optimization)
