@@ -122,9 +122,11 @@ Eigenvalues have significant applications when it comes to linear programming an
 
 ### Eigenvalues for Numerical Methods
 
+Eigenvalues are important when considering stability and sensitivity for many different problems. These eigenvalues may represent multipliers or simpler ways to represent linear systems. For example, eigenvalues are integral for control systems and vibration models [5]. Understanding the eigenspace and the eigenvalues a problem has can explain much about its convergence and help guide engineers about the inaccuracies that can be propogated throughout. 
+
 ## References
 1. Heath, M. T. (2009). Chapter 4: Eigenvalue Problems. In Scientific computing: An introductory survey (pp. 157–214), McGraw Hill.
 2. Golub, G. H., & van der Vorst, H. A. (2000). Eigenvalue computation in the 20th century. Journal of Computational and Applied Mathematics, 123(1–2), 35–65. https://doi.org/10.1016/s0377-0427(00)00413-1
 3. HarrarII, D. L., & Osborne, M. R. (2003). Computing eigenvalues of ordinary differential equations. ANZIAM Journal, 44, 313. https://doi.org/10.21914/anziamj.v44i0.684  
 4. Lewis, A. S., & Overton, M. L. (1996). Eigenvalue optimization. Acta Numerica, 5, 149–190. https://doi.org/10.1017/S0962492900002646
-5. 
+5. Lin, R. M., Mottershead, J. E., & Ng, T. Y. (2020). A state-of-the-art review on theory and engineering applications of eigenvalue and eigenvector derivatives. Mechanical Systems and Signal Processing, 138, 106536. https://doi.org/10.1016/j.ymssp.2019.106536 
